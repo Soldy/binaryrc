@@ -1,0 +1,27 @@
+{
+  "name": "binaryrc",
+  "version": "1.0.0",
+  "description": "binary converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soldy/binaryrc.git"
+  },
+  "keywords": [
+    "binary",
+    "typedArray"
+  ],
+  "author": "Soldy",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/Soldy/binaryrc/issues"
+  },
+  "homepage": "https://github.com/Soldy/binaryrc#readme",
+  "devDependencies": {
+    "interactiveConsole": "0.0.7-alpha0",
+    "nanoTest": "0.0.4-alpha"
+  }
+}
