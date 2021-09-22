@@ -1,6 +1,6 @@
 {
   "name": "binaryrc",
-  "version": "1.0.0",
+  "version": "1.0.0-rc1",
   "description": "binary converter",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,6 @@
     "url": "https://github.com/Soldy/binaryrc/issues"
   },
   "homepage": "https://github.com/Soldy/binaryrc#readme",
-  "devDependencies": {
-    "interactiveConsole": "0.0.7-alpha0",
-    "nanoTest": "0.0.4-alpha"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
