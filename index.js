@@ -2,7 +2,7 @@
 /*
  *  @Soldy\binaryrc\2020.12.07\GPL3
  */
-'use strict'
+'use strict';
 
 
 /*
@@ -16,7 +16,7 @@ const _binary=function(){
     */
     this.aTs = function(input){
         return _aTs(input);
-    }
+    };
     /*
      * @param {string}
      * @public
@@ -24,7 +24,7 @@ const _binary=function(){
     */
     this.sTa8 = function(input){
         return _sTa8(input);
-    }
+    };
     /*
      * @param {string}
      * @public
@@ -32,7 +32,7 @@ const _binary=function(){
     */
     this.sTa = function(input){
         return _sTa(input);
-    }
+    };
     /*
      * @param {string}
      * @private
@@ -44,7 +44,7 @@ const _binary=function(){
         for (let i=0; i < strLen ; i++) 
             pushed[i]=input.charCodeAt(i);
         return pushed;
-    }
+    };
     /*
      * @param {string}
      * @private
@@ -56,7 +56,7 @@ const _binary=function(){
         buf.set(pushed);
         return buf;
 
-    }
+    };
     /*
      * @param {array}
      * @private
@@ -67,6 +67,6 @@ const _binary=function(){
             null,
             input
         );
-    }
-}
+    };
+};
 exports.base = _binary;

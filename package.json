@@ -20,7 +20,8 @@
     "url": "https://github.com/Soldy/binaryrc/issues"
   },
   "homepage": "https://github.com/Soldy/binaryrc#readme",
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "nanoTest": "0.9.9-beta27"
   }
