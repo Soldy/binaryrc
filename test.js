@@ -1,5 +1,8 @@
-const brc = new (require('./index.js')).binary();
-const nanoTest   = new (require("nanoTest")).test();
+const brc = new (require('./index.js')).base();
+const nanoTest   = new (require("nanoTest")).test({
+    'progress_bar':false,
+    'debug_print':'short'
+});
 
 nanoTest.add(
     'integer array to binary string',
